@@ -6,6 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>PNI International Healthcare Application</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+    await OneSignal.init({
+      appId: "ff4ea806-dc7c-41d5-9cbc-502d7c293b64",
+    });
+  });
+</script>
 
   <style>
     * {
